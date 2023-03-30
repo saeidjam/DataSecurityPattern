@@ -1,0 +1,359 @@
+____________________________________________________________________
+"			P o w e r T O P"
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+
+
+Kernel Version;Linux version 5.15.74-v7+
+System Name;
+CPU Information;4 ARMv7 Processor rev 4 (v7l)
+OS Information;Raspbian GNU/Linux 11 (bullseye)
+
+Target: 1 units/s;System:  42.0 wakeup/s;CPU:  0.8% usage;GPU: 0 ops/s;GFX: 0.8 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description;PW Estimate
+  0.0%; 15.6;Interrupt;[89] dwc_otg; 61.6 mW  
+  0.0%;  3.2;Timer;tick_sched_timer; 12.9 mW  
+  0.0%;  3.0;Interrupt;[6] tasklet(softirq); 12.4 mW  
+  0.1%;  2.6;Process;[PID 1433] lxpanel --profile LXDE-pi ; 12.1 mW  
+  0.0%;  2.7;Process;[PID 326] [brcmf_wdog/mmc1]; 10.8 mW  
+  0.0%;  2.6;kWork;sdio_irq_work; 10.7 mW  
+  0.1%;  1.3;Process;[PID 896] lxpanel --profile LXDE-pi ; 7.16 mW  
+  0.0%;  1.5;Interrupt;[20] IPI; 6.29 mW  
+  0.0%;  1.2;Timer;hrtimer_wakeup; 5.03 mW  
+  0.0%;  1.1;Interrupt;[119] mmc1; 4.82 mW  
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+;
+;
+;
+
+CPU;0
+CPU;1
+CPU;2
+CPU;3
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+ 600 MHz;   0.5% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.1% 
+Idle;  99.4% 
+;
+;
+;
+;
+
+CPU 0
+ 600 MHz;   0.3% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+Idle;  99.6% 
+CPU 1
+ 600 MHz;   0.0% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+Idle; 100.0% 
+CPU 2
+ 600 MHz;   0.1% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+Idle;  99.9% 
+CPU 3
+ 600 MHz;   0.1% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+Idle;  99.8% 
+;
+;
+;
+;
+;
+;
+;
+;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description;PW Estimate
+ 82.9 us/s; 15.6;;;;Interrupt;[89] dwc_otg; 61.6 mW  
+119.7 us/s;  3.2;;;;Timer;tick_sched_timer; 12.9 mW  
+366.2 us/s;  3.0;;;;Interrupt;[6] tasklet(softirq); 12.4 mW  
+  0.9 ms/s;  2.6;;;  0.4;Process;[PID 1433] lxpanel --profile LXDE-pi ; 12.1 mW  
+ 77.1 us/s;  2.7;;;;Process;[PID 326] [brcmf_wdog/mmc1]; 10.8 mW  
+345.8 us/s;  2.6;;;;kWork;sdio_irq_work; 10.7 mW  
+  0.9 ms/s;  1.3;;;  0.5;Process;[PID 896] lxpanel --profile LXDE-pi ; 7.16 mW  
+142.1 us/s;  1.5;;;;Interrupt;[20] IPI; 6.29 mW  
+ 96.8 us/s;  1.2;;;;Timer;hrtimer_wakeup; 5.03 mW  
+305.4 us/s;  1.1;;;;Interrupt;[119] mmc1; 4.82 mW  
+ 55.3 us/s;  1.2;;;;kWork;dbs_work_handler; 4.67 mW  
+268.5 us/s; 0.26;;;;Process;[PID 1317] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log ; 4.10 mW  
+  0.0 us/s;  0.9;;;;kWork;mmc_rescan; 3.60 mW  
+ 29.7 us/s;  0.8;;;;Process;[PID 14] [rcu_sched]; 3.30 mW  
+  1.7 ms/s; 0.04;;;;Process;[PID 590] wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 ; 2.73 mW  
+  8.5 us/s;  0.7;;;;Interrupt;[50] 3f00b880.mailbox; 2.68 mW  
+  9.7 us/s;  0.6;;;;kWork;vmstat_shepherd; 2.28 mW  
+  4.1 us/s;  0.4;;;;kWork;lru_add_drain_per_cpu; 1.68 mW  
+636.8 us/s; 0.09;;;;Process;[PID 1835] powertop --csv=Without_pattern_5.csv -t 80 ; 1.34 mW  
+160.7 us/s; 0.25;;;;kWork;brcmf_sdio_dataworker; 1.24 mW  
+151.1 us/s; 0.25;;;;Process;[PID 433] avahi-daemon: running [raspberrypi-2.local] ; 1.22 mW  
+  6.0 us/s; 0.16;;;;Timer;txdone_hrtimer;  651 uW  
+  2.6 us/s; 0.14;;;;kWork;kfree_rcu_work;  547 uW  
+ 57.7 us/s; 0.11;;;;Process;[PID 1609] lxterminal ;  534 uW  
+ 11.2 us/s; 0.12;;;;Process;[PID 527] /usr/sbin/dhcpcd -b -q ;  511 uW  
+  1.0 us/s; 0.11;;;;kWork;kfree_rcu_monitor;  446 uW  
+  7.7 us/s; 0.10;;;;Process;[PID 1103] /usr/libexec/packagekitd ;  407 uW  
+257.6 us/s;;;;;Process;[PID 69] [kworker/u9:0];  402 uW  
+214.8 us/s; 0.01;;;;Interrupt;[7] sched(softirq);  384 uW  
+  5.1 us/s; 0.09;;;;kWork;output_poll_execute;  353 uW  
+218.9 us/s;;;;;Interrupt;[195] arch_timer;  342 uW  
+ 11.5 us/s; 0.07;;;;kWork;drain_local_pages_wq;  314 uW  
+  4.8 us/s; 0.07;;;;Process;[PID 1396] /usr/bin/ssh-agent x-session-manager ;  303 uW  
+  3.5 us/s; 0.07;;;;kWork;vc4_job_done_work;  301 uW  
+  1.2 us/s; 0.07;;;;kWork;neigh_periodic_work;  298 uW  
+  0.0 us/s; 0.07;;;;kWork;mmc_blk_mq_complete_work;  296 uW  
+112.8 us/s; 0.02;;;;Interrupt;[3] net_rx(softirq);  275 uW  
+ 41.5 us/s; 0.05;;;;kWork;brcmf_fweh_event_worker;  262 uW  
+146.4 us/s;;;;;Interrupt;[1] timer(softirq);  228 uW  
+ 17.3 us/s; 0.05;;;;kWork;vc4_bo_cache_time_work;  224 uW  
+139.8 us/s;;;;;Interrupt;[89] dwc_otg_hcd:usb1;  218 uW  
+ 74.1 us/s; 0.02;;;;Interrupt;[22] IPI;  214 uW  
+  5.8 us/s; 0.05;;;;kWork;delayed_fput;  206 uW  
+  4.3 us/s; 0.05;;;;Interrupt;[67] vc4;  204 uW  
+120.1 us/s;;;;;Process;[PID 1742] [kworker/3:0];  187 uW  
+110.1 us/s;;;;;Process;[PID 1718] [kworker/1:2];  172 uW  
+  0.9 us/s; 0.04;;;;kWork;handle_update;  149 uW  
+ 47.0 us/s; 0.01;;;;Process;[PID 42] [kcompactd0];  123 uW  
+ 76.6 us/s;;;;;kWork;gc_worker;  120 uW  
+ 41.0 us/s; 0.01;;;;Process;[PID 1002] /usr/libexec/gvfs-afc-volume-monitor ;  113 uW  
+  4.5 us/s; 0.02;;;;kWork;blk_mq_run_work_fn;  106 uW  
+ 64.6 us/s;;;;;Process;[PID 609] /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch ;  101 uW  
+  0.4 us/s; 0.02;;;;kWork;do_cache_clean;    0 mW  
+ 58.9 us/s;;;;;Process;[PID 1739] [kworker/0:0];    0 mW  
+ 56.1 us/s;;;;;Process;[PID 21] [kworker/1:0H];    0 mW  
+ 55.6 us/s;;;;;Process;[PID 1314] /usr/sbin/xrdp ;    0 mW  
+ 53.3 us/s;;;;;Interrupt;[89] dwc_otg_pcd;    0 mW  
+ 20.9 us/s; 0.01;;;;kWork;get_values_poll;    0 mW  
+ 19.0 us/s; 0.01;;;;kWork;flush_memcg_stats_dwork;    0 mW  
+ 48.8 us/s;;;;;Timer;delayed_work_timer_fn;    0 mW  
+ 44.6 us/s;;;;;Timer;process_timeout;    0 mW  
+ 39.9 us/s;;;;;Interrupt;[9] RCU(softirq);    0 mW  
+  7.0 us/s; 0.01;;;;Process;[PID 465] /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant ;    0 mW  
+  5.2 us/s; 0.01;;;;Process;[PID 194] /lib/systemd/systemd-udevd ;    0 mW  
+  4.5 us/s; 0.01;;;;Process;[PID 746] /usr/bin/ssh-agent x-session-manager ;    0 mW  
+ 35.8 us/s;;;;;Process;[PID 1761] [kworker/u8:2];    0 mW  
+  2.1 us/s; 0.01;;;;Timer;pm_suspend_timer_fn;    0 mW  
+  1.1 us/s; 0.01;;;;kWork;mld_gq_work;    0 mW  
+  0.8 us/s; 0.01;;;;Timer;timerfd_tmrproc;    0 mW  
+  0.7 us/s; 0.01;;;;Process;[PID 1849] [kthreadd];    0 mW  
+  0.3 us/s; 0.01;;;;kWork;blk_mq_timeout_work;    0 mW  
+  0.2 us/s; 0.01;;;;kWork;check_lifetime;    0 mW  
+ 29.5 us/s;;;;;Timer;rh_timer_func;    0 mW  
+ 28.0 us/s;;;;;Timer;brcmf_sdio_watchdog;    0 mW  
+ 20.3 us/s;;;;;Process;[PID 19] [ksoftirqd/1];    0 mW  
+ 18.4 us/s;;;;;Process;[PID 29] [ksoftirqd/3];    0 mW  
+ 15.8 us/s;;;;;Process;[PID 1736] [kworker/2:2];    0 mW  
+ 14.5 us/s;;;;;Interrupt;[4] block(softirq);    0 mW  
+ 14.0 us/s;;;;;Process;[PID 691] /usr/libexec/rtkit-daemon ;    0 mW  
+ 12.3 us/s;;;;;Process;[PID 18] [migration/1];    0 mW  
+ 11.7 us/s;;;;;Process;[PID 23] [migration/2];    0 mW  
+ 11.5 us/s;;;;;Process;[PID 1735] [kworker/0:2];    0 mW  
+ 11.1 us/s;;;;;Process;[PID 28] [migration/3];    0 mW  
+ 11.1 us/s;;;;;Process;[PID 89] [jbd2/mmcblk0p2-];    0 mW  
+ 10.7 us/s;;;;;Process;[PID 457] /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input;    0 mW  
+ 10.1 us/s;;;;;Process;[PID 1] /sbin/init splash ;    0 mW  
+  9.4 us/s;;;;;Process;[PID 15] [migration/0];    0 mW  
+  8.6 us/s;;;;;Timer;mix_interrupt_randomness;    0 mW  
+  8.0 us/s;;;;;Process;[PID 87] [kworker/0:1H];    0 mW  
+  7.9 us/s;;;;;Process;[PID 692] /usr/libexec/rtkit-daemon ;    0 mW  
+  7.6 us/s;;;;;Process;[PID 1790] [kworker/3:2];    0 mW  
+  7.1 us/s;;;;;Process;[PID 347] [kworker/u9:1];    0 mW  
+  7.0 us/s;;;;;Timer;neigh_timer_handler;    0 mW  
+  6.1 us/s;;;;;kWork;wb_workfn;    0 mW  
+  5.7 us/s;;;;;Process;[PID 456] /lib/systemd/systemd-logind ;    0 mW  
+  5.2 us/s;;;;;Process;[PID 13] [ksoftirqd/0];    0 mW  
+  5.2 us/s;;;;;kWork;vmstat_update;    0 mW  
+  4.9 us/s;;;;;kWork;pm_runtime_work;    0 mW  
+  4.7 us/s;;;;;Process;[PID 434] /usr/sbin/cron -f ;    0 mW  
+  3.7 us/s;;;;;Interrupt;[113] mmc0;    0 mW  
+
+
+The system baseline power is estimated at:  180 m W;
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name;PW Estimate
+  0.9%;CPU use;  180 mW   
+100.0%;USB device: DWC OTG Controller;           
+100.0%;USB device: usb-device-0424-2514;           
+100.0%;USB device: usb-device-0424-2514;           
+100.0%;USB device: usb-device-0424-7800;           
+100.0%;Radio device: brcmfmac;           
+100.0%;radio:hci0;           
+100.0%;runtime-3fc00000.v3d;           
+  1.4 pkts/s;Network interface: wlan0 (brcmfmac);           
+  0.0%;runtime-3f902000.hdmi;           
+  0.0%;runtime-bcm2835-wdt;           
+  0.0 pkts/s;Network interface: eth0 (lan78xx);           
+  0.0%;runtime-regulatory.0;           
+  0.0%;runtime-3f980000.usb;           
+  0.0%;runtime-3eaa9000.framebuffer;           
+  0.0%;runtime-arm-pmu;           
+  0.0%;runtime-bcm2835-codec;           
+  0.0%;runtime-3f202000.mmc;           
+  0.0%;runtime-3f805000.i2c;           
+  0.0%;runtime-vcsm-cma;           
+  0.0%;runtime-3f206000.pixelvalve;           
+  0.0%;runtime-reg-dummy;           
+  0.0%;runtime-3f200000.gpiomem;           
+  0.0%;runtime-3f101000.cprman;           
+  0.0%;runtime-cam1_regulator;           
+  0.0%;runtime-3f004000.txp;           
+  0.0%;runtime-soc;           
+  0.0%;runtime-raspberrypi-cpufreq;           
+  0.0%;runtime-cpufreq-dt;           
+  0.0%;runtime-bcm2835-camera;           
+  0.0%;runtime-leds;           
+  0.0%;runtime-3f807000.pixelvalve;           
+  0.0%;runtime-cam_dummy_reg;           
+  0.0%;runtime-3f400000.hvs;           
+  0.0%;runtime-chosen;           
+  0.0%;runtime-3f200000.gpio;           
+  0.0%;I2C Adapter (i2c-2): bcm2835 (i2c@7e805000);           
+  0.0%;runtime-phy;           
+  0.0%;runtime-soc:firmware:expgpio;           
+  0.0%;runtime-bcm2835-power;           
+  0.0%;runtime-3f215000.aux;           
+  0.0%;runtime-soc:firmware;           
+  0.0%;runtime-raspberrypi-hwmon;           
+  0.0%;runtime-soc:gpu;           
+  0.0%;runtime-bcm2835_audio;           
+  0.0%;runtime-timer;           
+  0.0%;runtime-3f00b840.mailbox;           
+  0.0%;runtime-hdmi-audio-codec.0.auto;           
+  0.0%;runtime-3f007000.dma;           
+  0.0%;runtime-3f104000.rng;           
+  0.0%;runtime-3f207000.pixelvalve;           
+  0.0%;runtime-Fixed MDIO bus.0;           
+  0.0%;runtime-snd-soc-dummy;           
+  0.0%;runtime-fixedregulator_3v3;           
+  0.0%;runtime-soc:power;           
+  0.0%;runtime-3f00b880.mailbox;           
+  0.0%;runtime-kgdboc;           
+  0.0%;runtime-soc:firmware:vcio;           
+  0.0%;runtime-fixedregulator_5v0;           
+  0.0%;runtime-bcm2835-isp;           
+  0.0%;runtime-3f100000.watchdog;           
+  0.0%;runtime-3f300000.mmcnr;           
+  0.0%;runtime-soc:firmware:clocks;           
+  0.0%;runtime-3f212000.thermal;           
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+systemd-logind;/dev/input/event0
+thd;/dev/input/event0
+rngd;/dev/hwrng
+;/dev/random
+wpa_supplicant;/dev/rfkill
+;/dev/rfkill
+Xorg;/dev/dri/card0
+;/dev/input/event0
+pulseaudio;/dev/snd/controlC0
+bluetoothd;/dev/rfkill
+gvfsd-fuse;/dev/fuse
+Xorg;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+xrdp-chansrv;/dev/fuse
+lxpanel;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+pcmanfm;/dev/dri/renderD128
+;/dev/dri/renderD128
+;/dev/dri/renderD128
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+Autosuspend for unknown USB device 1-1.1.1 (0424:7800);echo 'auto' > '/sys/bus/usb/devices/1-1.1.1/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Adapter i2c-2 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Wireless Power Saving for interface wlan0
+Bluetooth device interface status
+Autosuspend for USB device DWC OTG Controller [usb1]
+Autosuspend for unknown USB device 1-1.1 (0424:2514)
+Autosuspend for unknown USB device 1-1 (0424:2514)

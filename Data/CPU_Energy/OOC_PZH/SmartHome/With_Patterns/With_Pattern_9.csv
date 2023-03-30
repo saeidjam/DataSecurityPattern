@@ -1,0 +1,337 @@
+____________________________________________________________________
+"			P o w e r T O P"
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+
+
+Kernel Version;Linux version 5.15.74-v7+
+System Name;
+CPU Information;4 ARMv7 Processor rev 4 (v7l)
+OS Information;Raspbian GNU/Linux 11 (bullseye)
+
+Target: 1 units/s;System:  163.2 wakeup/s;CPU:  13.4% usage;GPU: 0 ops/s;GFX: 1.2 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description;PW Estimate
+ 10.3%; 15.0;Process;[PID 2129] /usr/local/lib/python3.9/dist-packages/adafruit_blinka/microcontroller/bcm283x/pulseio/libgpiod_pulsein --pulses 81 ;  220 mW  
+  0.1%; 43.3;Interrupt;[20] IPI;  172 mW  
+  0.1%; 21.7;Timer;hrtimer_wakeup; 87.8 mW  
+  0.1%; 20.7;Process;[PID 2126] /usr/bin/python3.9 -c __import__('idlelib.run').run.main(True) 50515 ; 83.3 mW  
+  0.7%;  9.5;Process;[PID 2112] /usr/bin/python3.9 /usr/bin/idle-python3.9 ; 49.3 mW  
+  0.5%;  9.9;Process;[PID 2119] /usr/bin/python3.9 /usr/bin/idle-python3.9 ; 46.6 mW  
+  0.0%;  6.0;Timer;tick_sched_timer; 24.3 mW  
+  0.0%;  5.9;Interrupt;[89] dwc_otg; 23.3 mW  
+  0.2%;  4.8;Process;[PID 2127] /usr/bin/python3.9 -c __import__('idlelib.run').run.main(True) 50515 ; 21.5 mW  
+  0.2%;  4.4;kWork;dbs_work_handler; 20.5 mW  
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+;
+;
+;
+
+CPU;0
+CPU;1
+CPU;2
+CPU;3
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+ 600 MHz;  27.5% 
+ 700 MHz;   1.8% 
+ 800 MHz;   2.1% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.1% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;  19.1% 
+Idle;  49.4% 
+;
+;
+;
+;
+
+CPU 0
+ 600 MHz;   1.4% 
+ 700 MHz;   0.7% 
+ 800 MHz;   0.1% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.1% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.6% 
+Idle;  97.1% 
+CPU 1
+ 600 MHz;   0.0% 
+ 700 MHz;   0.0% 
+ 800 MHz;   0.0% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   0.0% 
+Idle; 100.0% 
+CPU 2
+ 600 MHz;   2.0% 
+ 700 MHz;   1.1% 
+ 800 MHz;   0.2% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.1% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;   5.2% 
+Idle;  91.3% 
+CPU 3
+ 600 MHz;  25.9% 
+ 700 MHz;   0.9% 
+ 800 MHz;   1.9% 
+ 900 MHz;   0.0% 
+1000 MHz;   0.0% 
+1100 MHz;   0.0% 
+1200 MHz;   0.0% 
+1300 MHz;   0.0% 
+1400 MHz;  14.8% 
+Idle;  56.4% 
+;
+;
+;
+;
+;
+;
+;
+;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description;PW Estimate
+102.9 ms/s; 15.0;;;;Process;[PID 2129] /usr/local/lib/python3.9/dist-packages/adafruit_blinka/microcontroller/bcm283x/pulseio/libgpiod_pulsein --pulses 81 ;  220 mW  
+  1.0 ms/s; 43.3;;;;Interrupt;[20] IPI;  172 mW  
+  1.3 ms/s; 21.7;;;;Timer;hrtimer_wakeup; 87.8 mW  
+  0.8 ms/s; 20.7;;;;Process;[PID 2126] /usr/bin/python3.9 -c __import__('idlelib.run').run.main(True) 50515 ; 83.3 mW  
+  7.1 ms/s;  9.5;;;  0.8;Process;[PID 2112] /usr/bin/python3.9 /usr/bin/idle-python3.9 ; 49.3 mW  
+  4.9 ms/s;  9.9;;;;Process;[PID 2119] /usr/bin/python3.9 /usr/bin/idle-python3.9 ; 46.6 mW  
+464.9 us/s;  6.0;;;;Timer;tick_sched_timer; 24.3 mW  
+ 59.4 us/s;  5.9;;;;Interrupt;[89] dwc_otg; 23.3 mW  
+  1.6 ms/s;  4.8;;;;Process;[PID 2127] /usr/bin/python3.9 -c __import__('idlelib.run').run.main(True) 50515 ; 21.5 mW  
+  2.0 ms/s;  4.4;;;;kWork;dbs_work_handler; 20.5 mW  
+278.4 us/s;  4.8;;;;Interrupt;[6] tasklet(softirq); 19.5 mW  
+  2.2 ms/s;  1.7;;;;Process;[PID 2132] /usr/bin/python3.9 -c __import__('idlelib.run').run.main(True) 49969 ; 10.0 mW  
+ 65.1 us/s;  2.4;;;;Process;[PID 330] [brcmf_wdog/mmc1]; 9.47 mW  
+129.4 us/s;  1.3;;;;Interrupt;[119] mmc1; 5.33 mW  
+416.1 us/s;  1.1;;;;kWork;brcmf_sdio_dataworker; 5.19 mW  
+336.4 us/s;  1.1;;;;kWork;sdio_irq_work; 4.86 mW  
+ 19.4 us/s;  1.0;;;;Timer;txdone_hrtimer; 4.02 mW  
+  0.9 ms/s;  0.6;;;;Process;[PID 1759] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log ; 3.74 mW  
+ 37.3 us/s;  0.7;;;;kWork;brcmf_fweh_event_worker; 2.92 mW  
+ 13.5 us/s;  0.7;;;;Interrupt;[50] 3f00b880.mailbox; 2.78 mW  
+ 70.9 us/s;  0.5;;;;kWork;mmc_rescan; 2.28 mW  
+370.8 us/s;  0.4;;;;Interrupt;[7] sched(softirq); 2.11 mW  
+269.1 us/s;  0.4;;;;Interrupt;[3] net_rx(softirq); 2.10 mW  
+  0.9 ms/s; 0.12;;;  0.2;Process;[PID 3549] /usr/sbin/xrdp ; 2.03 mW  
+ 16.1 us/s;  0.5;;;;Process;[PID 42] [kcompactd0]; 2.00 mW  
+  1.2 ms/s;;;;;Interrupt;[195] arch_timer; 1.82 mW  
+ 70.6 us/s;  0.4;;;;Process;[PID 87] [kworker/2:1H]; 1.54 mW  
+ 49.4 us/s;  0.3;;;;Process;[PID 1113] lxpanel --profile LXDE-pi ; 1.46 mW  
+  0.8 ms/s; 0.05;;;;Process;[PID 3914] powertop --csv=With_Pattern_9.csv -t 80 ; 1.43 mW  
+  0.8 ms/s; 0.01;;;;Process;[PID 1893] lxpanel --profile LXDE-pi ; 1.36 mW  
+ 35.8 us/s;  0.3;;;;kWork;flush_memcg_stats_dwork; 1.34 mW  
+ 12.4 us/s;  0.3;;;;kWork;vmstat_shepherd; 1.25 mW  
+ 29.1 us/s; 0.30;;;;Process;[PID 608] /usr/bin/containerd ; 1.23 mW  
+ 43.1 us/s; 0.27;;;;Process;[PID 568] /usr/share/picockpit-client/bin/python /usr/bin/picockpit-client daemon ; 1.15 mW  
+ 10.5 us/s; 0.26;;;;Process;[PID 607] /usr/bin/containerd ; 1.05 mW  
+ 31.4 us/s; 0.22;;;;kWork;get_values_poll;  937 uW  
+  9.2 us/s; 0.21;;;;Process;[PID 1218] /usr/libexec/gvfs-afc-volume-monitor ;  853 uW  
+ 64.1 us/s; 0.16;;;;Process;[PID 14] [rcu_sched];  741 uW  
+ 26.0 us/s; 0.16;;;;Process;[PID 719] postgres: 13/main: background writer  ;  682 uW  
+131.1 us/s; 0.02;;;  0.3;Process;[PID 338] [kworker/u9:1];  653 uW  
+ 69.9 us/s; 0.14;;;;Process;[PID 609] /usr/bin/containerd ;  651 uW  
+ 10.1 us/s; 0.15;;;;Process;[PID 752] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;  608 uW  
+ 30.5 us/s; 0.14;;;;kWork;wb_workfn;  590 uW  
+259.8 us/s; 0.02;;;;Process;[PID 848] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;  504 uW  
+126.7 us/s; 0.06;;;;Interrupt;[22] IPI;  444 uW  
+251.4 us/s; 0.01;;;;Process;[PID 913] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;  442 uW  
+ 51.7 us/s; 0.09;;;;Process;[PID 654] /usr/bin/containerd ;  426 uW  
+250.5 us/s;;;;;Interrupt;[1] timer(softirq);  391 uW  
+213.9 us/s;;;;;Process;[PID 756] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;  334 uW  
+  7.1 us/s; 0.07;;;;kWork;mmc_blk_mq_complete_work;  307 uW  
+  2.2 us/s; 0.07;;;;Timer;sched_rt_period_timer;  299 uW  
+ 72.3 us/s; 0.04;;;;Process;[PID 922] /usr/share/picockpit-client/bin/python /usr/bin/picockpit-client daemon ;  261 uW  
+ 63.7 us/s; 0.04;;;;kWork;handle_update;  247 uW  
+139.3 us/s;;;;;Interrupt;[89] dwc_otg_hcd:usb1;  217 uW  
+  6.7 us/s; 0.05;;;;Process;[PID 720] postgres: 13/main: walwriter  ;  208 uW  
+  2.2 us/s; 0.05;;;;Process;[PID 449] /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input;  201 uW  
+  0.3 us/s; 0.05;;;;kWork;wb_update_bandwidth_workfn;  198 uW  
+ 18.6 us/s; 0.04;;;;Process;[PID 721] postgres: 13/main: autovacuum launcher  ;  177 uW  
+111.2 us/s;;;;;Process;[PID 610] /usr/bin/containerd ;  174 uW  
+  9.0 us/s; 0.04;;;;Process;[PID 914] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;  162 uW  
+  2.0 us/s; 0.04;;;;Process;[PID 759] /usr/libexec/rtkit-daemon ;  151 uW  
+  1.8 us/s; 0.04;;;;kWork;neigh_periodic_work;  151 uW  
+ 95.6 us/s;;;;;Interrupt;[9] RCU(softirq);  149 uW  
+  0.6 us/s; 0.04;;;;kWork;blk_mq_timeout_work;  149 uW  
+ 27.9 us/s; 0.02;;;;Process;[PID 424] avahi-daemon: running [raspberrypi-3.local] ;  142 uW  
+ 88.5 us/s;;;;;Process;[PID 3484] [kworker/2:0];  138 uW  
+ 87.5 us/s;;;;;Process;[PID 3435] [kworker/1:1];  137 uW  
+ 24.1 us/s; 0.02;;;;Process;[PID 722] postgres: 13/main: stats collector  ;  136 uW  
+ 18.2 us/s; 0.02;;;;Process;[PID 587] wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 ;  127 uW  
+ 75.1 us/s;;;;;Process;[PID 3909] [kworker/0:1];  117 uW  
+  7.5 us/s; 0.02;;;;Process;[PID 533] /usr/sbin/rsyslogd -n -iNONE ;  110 uW  
+ 37.9 us/s; 0.01;;;;kWork;gc_worker;  108 uW  
+  3.5 us/s; 0.02;;;;Process;[PID 532] /usr/sbin/rsyslogd -n -iNONE ;  104 uW  
+  2.1 us/s; 0.02;;;;kWork;__cfg80211_scan_done;  102 uW  
+  1.8 us/s; 0.02;;;;Process;[PID 1322] /usr/libexec/packagekitd ;  101 uW  
+  1.6 us/s; 0.02;;;;Process;[PID 452] /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant ;  101 uW  
+  1.1 us/s; 0.02;;;;Process;[PID 888] /usr/bin/ssh-agent x-session-manager ;  100 uW  
+ 59.8 us/s;;;;;Process;[PID 3774] [kworker/3:2];    0 mW  
+ 59.3 us/s;;;;;Timer;delayed_work_timer_fn;    0 mW  
+ 56.9 us/s;;;;;Timer;process_timeout;    0 mW  
+ 48.4 us/s;;;;;Timer;rh_timer_func;    0 mW  
+  5.8 us/s; 0.01;;;;kWork;blk_mq_run_work_fn;    0 mW  
+  5.3 us/s; 0.01;;;;Process;[PID 3911] pool-pcmanfm;    0 mW  
+  5.1 us/s; 0.01;;;;Process;[PID 198] /lib/systemd/systemd-udevd ;    0 mW  
+  3.4 us/s; 0.01;;;;Process;[PID 39] [khungtaskd];    0 mW  
+  2.6 us/s; 0.01;;;;Process;[PID 3919] pool-pcmanfm;    0 mW  
+ 33.8 us/s;;;;;Timer;tcp_orphan_update;    0 mW  
+  2.0 us/s; 0.01;;;;Process;[PID 19] [ksoftirqd/1];    0 mW  
+ 33.6 us/s;;;;;Process;[PID 639] /usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.;    0 mW  
+  1.4 us/s; 0.01;;;;kWork;ext4_end_io_rsv_work;    0 mW  
+  1.3 us/s; 0.01;;;;Process;[PID 1850] /usr/bin/ssh-agent x-session-manager ;    0 mW  
+  1.1 us/s; 0.01;;;;Interrupt;[19] IPI;    0 mW  
+  1.0 us/s; 0.01;;;;Process;[PID 758] /usr/libexec/rtkit-daemon ;    0 mW  
+  0.8 us/s; 0.01;;;;kWork;kfree_rcu_work;    0 mW  
+  0.8 us/s; 0.01;;;;Process;[PID 1051] /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ;    0 mW  
+ 29.6 us/s;;;;;Timer;tcp_delack_timer;    0 mW  
+ 29.0 us/s;;;;;Timer;brcmf_sdio_watchdog;    0 mW  
+ 28.7 us/s;;;;;Interrupt;[89] dwc_otg_pcd;    0 mW  
+ 21.7 us/s;;;;;Process;[PID 133] /lib/systemd/systemd-journald ;    0 mW  
+ 21.5 us/s;;;;;Process;[PID 24] [ksoftirqd/2];    0 mW  
+
+
+The system baseline power is estimated at:  854 m W;
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name;PW Estimate
+ 13.4%;CPU use;  854 mW   
+100.0%;USB device: DWC OTG Controller;           
+100.0%;USB device: usb-device-0424-2514;           
+100.0%;USB device: usb-device-0424-2514;           
+100.0%;USB device: usb-device-0424-7800;           
+100.0%;Radio device: brcmfmac;           
+100.0%;radio:hci0;           
+  1.7 pkts/s;Network interface: wlan0 (brcmfmac);           
+  0.0%;runtime-3f804000.i2c;           
+  0.0%;runtime-3f101000.cprman;           
+  0.0%;runtime-regulatory.0;           
+  0.0%;runtime-3f980000.usb;           
+  0.0%;runtime-arm-pmu;           
+  0.0%;runtime-bcm2835-codec;           
+  0.0%;runtime-3f202000.mmc;           
+  0.0%;runtime-vcsm-cma;           
+  0.0%;runtime-reg-dummy;           
+  0.0 pkts/s;nic:docker0;           
+  0.0 pkts/s;Network interface: eth0 (lan78xx);           
+  0.0%;runtime-soc:firmware:expgpio;           
+  0.0%;runtime-bcm2835-wdt;           
+  0.0%;runtime-3f104000.rng;           
+  0.0%;runtime-soc;           
+  0.0%;runtime-raspberrypi-cpufreq;           
+  0.0%;runtime-cpufreq-dt;           
+  0.0%;runtime-bcm2835-camera;           
+  0.0%;runtime-leds;           
+  0.0%;runtime-cam_dummy_reg;           
+  0.0%;runtime-3f200000.gpio;           
+  0.0%;runtime-3f200000.gpiomem;           
+  0.0%;runtime-cam1_regulator;           
+  0.0%;I2C Adapter (i2c-1): bcm2835 (i2c@7e804000);           
+  0.0%;runtime-soc:fb;           
+  0.0%;runtime-3f007000.dma;           
+  0.0%;runtime-Fixed MDIO bus.0;           
+  0.0%;runtime-phy;           
+  0.0%;runtime-bcm2835-power;           
+  0.0%;runtime-3f215000.aux;           
+  0.0%;runtime-soc:firmware;           
+  0.0%;runtime-raspberrypi-hwmon;           
+  0.0%;runtime-bcm2835_audio;           
+  0.0%;runtime-timer;           
+  0.0%;runtime-3f00b840.mailbox;           
+  0.0%;runtime-3f212000.thermal;           
+  0.0%;runtime-fixedregulator_3v3;           
+  0.0%;runtime-soc:power;           
+  0.0%;runtime-3f00b880.mailbox;           
+  0.0%;runtime-kgdboc;           
+  0.0%;runtime-soc:firmware:vcio;           
+  0.0%;runtime-fixedregulator_5v0;           
+  0.0%;runtime-bcm2835-isp;           
+  0.0%;runtime-3f100000.watchdog;           
+  0.0%;runtime-3f300000.mmcnr;           
+  0.0%;runtime-soc:firmware:clocks;           
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+rngd;/dev/hwrng
+;/dev/random
+wpa_supplicant;/dev/rfkill
+;/dev/rfkill
+Xorg;/dev/fb0
+;/dev/fb0
+bluetoothd;/dev/rfkill
+pulseaudio;/dev/snd/controlC0
+gvfsd-fuse;/dev/fuse
+xrdp-chansrv;/dev/fuse
+libgpiod_pulsei;/dev/gpiochip0
+python3.9;/dev/gpiomem
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+Autosuspend for unknown USB device 1-1.1.1 (0424:7800);echo 'auto' > '/sys/bus/usb/devices/1-1.1.1/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Adapter i2c-1 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Wireless Power Saving for interface wlan0
+Bluetooth device interface status
+Autosuspend for USB device DWC OTG Controller [usb1]
+Autosuspend for unknown USB device 1-1.1 (0424:2514)
+Autosuspend for unknown USB device 1-1 (0424:2514)

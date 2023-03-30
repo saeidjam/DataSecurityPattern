@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Admin Page</title>
+    <link rel="icon" href="../static/images/favicon.png">
+    <link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="../static/assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../static/assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="../static/assets/css/styles.css">
+</head>
+
+<body>
+<form method="post" class="form-horizontal">
+    <div class="gwd-div-1hwu">
+      {% block content %}
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+              {% for msg in messages %}
+                  <span style="color: red">{{msg}}</span>
+              {% endfor %}
+          {% endif %}
+        {% endwith %}
+      {% endblock %}
+    </div>
+    <div class="text-left div1" id="div1" style="width: 500px;margin: 0;">
+        <header style="background-color: #d1e2e6;margin: 0px 0px 0px 120px;height: 450px;">
+            <h1>Access Control Page</h1>
+    <label class="control-label">username</label> <br>
+            {{form.username_list(class_="select-class")}} <br>
+    <label class="control-label">emailaddress</label> <br>
+            {{form.emailaddress_list(class_="select-class")}} <br>
+    <label class="control-label">Access Options</label> <br>
+            {{form.access_list(class_="select-class")}} <br>
+
+    <button class="btn btn-primary" type="submit">Change</button>
+        </header>
+    </div>
+    <script src="../static/assets/js/jquery.min.js"></script>
+    <script src="../static/assets/bootstrap/js/bootstrap.min.js"></script>
+</form>>
+</body>
+
+</html>

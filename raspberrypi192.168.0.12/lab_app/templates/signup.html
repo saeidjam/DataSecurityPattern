@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration Page for accessing The System</title>
+  <meta name="generator" content="Google Web Designer 14.0.4.1108">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    .gwd-input-t9v2 {
+      display: block;
+      height: 20px;
+      left: 520px;
+      position: absolute;
+      top: 295px;
+      width: 200px;
+    }
+    .gwd-label-b8ll {
+      display: block;
+      height: 20px;
+      left: 401px;
+      position: absolute;
+      top: 298px;
+      width: 120px;
+    }
+    .gwd-input-1ahr {
+      display: block;
+      height: 20px;
+      left: 520px;
+      position: absolute;
+      top: 333px;
+      width: 200px;
+    }
+    .gwd-label-729r {
+      display: block;
+      height: 20px;
+      left: 401px;
+      position: absolute;
+      top: 336px;
+      width: 100px;
+    }
+    .gwd-button-zti4 {
+      display: block;
+      font-size: 16px;
+      height: 24px;
+      position: absolute;
+      width: 100px;
+      left: 501px;
+      top: 629px;
+    }
+
+    .gwd-hyperlink-zti4 {
+      position: absolute;
+      width: 300px;
+      height: 25px;
+      left: 450px;
+      top: 670px;
+    }
+    .gwd-div-862l {
+      position: absolute;
+      width: 700px;
+      left: 220px;
+      top: 165px;
+      height: 600px;
+    }
+    .gwd-div-1hwu {
+      background-color: rgb(239, 239, 239);
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 713.333px;
+      height: 600px;
+    }
+    .gwd-input-1b8e {
+      top: 374px;
+    }
+    .gwd-label-n6h0 {
+      left: 376px;
+      top: 376px;
+    }
+    .gwd-input-1g3a {
+      top: 412px;
+    }
+    .gwd-label-v2uy {
+      top: 415px;
+    }
+    .gwd-input-1p60 {
+      top: 491px;
+    }
+    .gwd-input-7blw {
+      top: 532px;
+    }
+    .gwd-label-2abj {
+      top: 494px;
+    }
+    .gwd-label-a0d2 {
+      left: 391px;
+      top: 535px;
+    }
+    .gwd-label-1gjt {
+      left: 401px;
+    }
+    .gwd-input-u5ag {
+      top: 451px;
+    }
+    .gwd-label-1u7j {
+      top: 454px;
+    }
+  </style>
+</head>
+
+<body class="htmlNoPages">
+  <div class="gwd-div-862l">
+    <div class="gwd-div-1hwu">
+      <h1>Registration Page for accessing The System</h1>
+      <br>
+      {% if form.emailaddress.errors %}
+        {% for error in form.emailaddress.errors %}
+          <span  style="color: red;">Email address: {{ error }}</span>
+        {% endfor %}
+      {% endif %}
+
+      {% if form.password.errors %}
+        {% for error in form.password.errors %}
+          <span style="color: red;">Password: {{ error }}</span>
+        {% endfor %}
+      {% endif %}
+
+      {% block content %}
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+              {% for msg in messages %}
+                  <span style="color: red;">{{msg}}</span>
+              {% endfor %}
+          {% endif %}
+        {% endwith %}
+      {% endblock %}
+
+    </div>
+  </div>
+  <form method="POST" action="#">
+    <div class="gwd-div-862l"></div>
+    {{form.username(class_='gwd-input-t9v2 gwd-input-ono7')}}
+    <!--<input type="text" name="username" placeholder="username" class="gwd-input-t9v2 gwd-input-ono7">-->
+    <label id="label_1" class="gwd-label-b8ll gwd-label-x7aj">Username</label>
+    {{form.firstname(class_='gwd-input-t9v2 gwd-input-1ahr')}}
+    <label id="label_2" class="gwd-label-b8ll gwd-label-729r">First Name</label>
+    {{form.lastname(class_='gwd-input-t9v2 gwd-input-ono7 gwd-input-1b8e')}}
+    <label id="label_3" class="gwd-label-b8ll gwd-label-x7aj gwd-label-n6h0 gwd-label-1gjt">Last Name</label>
+    {{form.emailaddress(class_='gwd-input-t9v2 gwd-input-1ahr gwd-input-1g3a')}}
+
+    <label id="label_4" class="gwd-label-b8ll gwd-label-729r gwd-label-v2uy">Email</label>
+    {{form.retype_emailaddress(class_='gwd-input-t9v2 gwd-input-1ahr gwd-input-1g3a gwd-input-u5ag')}}
+    <label id="label_7" class="gwd-label-b8ll gwd-label-729r gwd-label-v2uy gwd-label-1u7j">Retype Email</label>
+    {{form.password(class_='gwd-input-t9v2 gwd-input-1ahr gwd-input-1p60')}}
+    <label id="label_5" class="gwd-label-b8ll gwd-label-729r gwd-label-2abj">Password</label>
+    {{form.retype_password(class_='gwd-input-t9v2 gwd-input-ono7 gwd-input-1b8e gwd-input-7blw')}}
+    <label id="label_6" class="gwd-label-b8ll gwd-label-x7aj gwd-label-n6h0 gwd-label-a0d2">Retype Password</label>
+    <button id="signup" class="gwd-button-zti4" type="submit" title="signup">Sign Up</button>
+     <a href="login" class="gwd-hyperlink-zti4">Already Registered? Try to Login</a>
+
+  </form>
+</body>
+
+</html>
